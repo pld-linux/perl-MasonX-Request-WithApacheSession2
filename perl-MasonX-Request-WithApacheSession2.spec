@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	MasonX
-%define	pnam	Request-WithApacheSession2
+%define		pdir	MasonX
+%define		pnam	Request-WithApacheSession2
 Summary:	MasonX::Request::WithApacheSession2 - add a session to the Mason Request object
 Summary(pl):	MasonX::Request::WithApacheSession2 - dodawanie sesji do obiektu Mason Request
 Name:		perl-MasonX-Request-WithApacheSession2
