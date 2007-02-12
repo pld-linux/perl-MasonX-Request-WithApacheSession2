@@ -6,7 +6,7 @@
 %define		pdir	MasonX
 %define		pnam	Request-WithApacheSession2
 Summary:	MasonX::Request::WithApacheSession2 - add a session to the Mason Request object
-Summary(pl):	MasonX::Request::WithApacheSession2 - dodawanie sesji do obiektu Mason Request
+Summary(pl.UTF-8):   MasonX::Request::WithApacheSession2 - dodawanie sesji do obiektu Mason Request
 Name:		perl-MasonX-Request-WithApacheSession2
 Version:	0.01
 Release:	1
@@ -34,14 +34,14 @@ Mason can run in a pure mod_perl2 environment.
 MasonX::Request::WithApacheSession2 is highly experimental (alpha)
 and should only be used in a test environment.
 
-%description -l pl
-MasonX::Request::WithApacheSession2 to kopia modu≥u Masona
-MasonX::Request::WithApacheSession. Przy uøyciu
-HTML::Mason::ApacheHandler2 Mason moøe dzia≥aÊ w ∂rodowisku czystego
+%description -l pl.UTF-8
+MasonX::Request::WithApacheSession2 to kopia modu≈Çu Masona
+MasonX::Request::WithApacheSession. Przy u≈ºyciu
+HTML::Mason::ApacheHandler2 Mason mo≈ºe dzia≈Çaƒá w ≈õrodowisku czystego
 mod_perl2.
 
 Mason::Request::WithApacheSession2 jest bardzo eksperymentalny (alfa)
-i powinien byÊ uøywany tylko w ∂rodowiskach testowych.
+i powinien byƒá u≈ºywany tylko w ≈õrodowiskach testowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
