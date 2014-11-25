@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	MasonX
 %define		pnam	Request-WithApacheSession2
+%include	/usr/lib/rpm/macros.perl
 Summary:	MasonX::Request::WithApacheSession2 - add a session to the Mason Request object
 Summary(pl.UTF-8):	MasonX::Request::WithApacheSession2 - dodawanie sesji do obiektu Mason Request
 Name:		perl-MasonX-Request-WithApacheSession2
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2e7446b6b0ab4f7b15a11217cc3177e4
+URL:		http://search.cpan.org/dist/MasonX-Request-WithApacheSession2/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -31,8 +32,8 @@ MasonX::Request::WithApacheSession2 is a copy of the Mason module
 MasonX::Request::WithApacheSession. With HTML::Mason::ApacheHandler2
 Mason can run in a pure mod_perl2 environment.
 
-MasonX::Request::WithApacheSession2 is highly experimental (alpha)
-and should only be used in a test environment.
+MasonX::Request::WithApacheSession2 is highly experimental (alpha) and
+should only be used in a test environment.
 
 %description -l pl.UTF-8
 MasonX::Request::WithApacheSession2 to kopia modułu Masona
