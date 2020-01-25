@@ -4,7 +4,6 @@
 
 %define		pdir	MasonX
 %define		pnam	Request-WithApacheSession2
-%include	/usr/lib/rpm/macros.perl
 Summary:	MasonX::Request::WithApacheSession2 - add a session to the Mason Request object
 Summary(pl.UTF-8):	MasonX::Request::WithApacheSession2 - dodawanie sesji do obiektu Mason Request
 Name:		perl-MasonX-Request-WithApacheSession2
